@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Niveaux - Licence d'Ingénierie Informatique (L2I)</title>
+    <link rel="stylesheet" href="css/level.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/ScrollTrigger.min.js"></script>
+
+
+</head>
+<body> 
+    <div class="up">
+        <img src="arrow-up-solid.svg" alt="" class="icone">
+    </div>
+    <header>
+        <div class="logo">
+            <a href="index.html"> 
+                <img src="img/logo.jpeg" height="80" width="90" alt="" /> 
+            </a>
+        </div>
+        <div class="spc">
+           <div class="line"></div>
+           <div class="line"></div>
+           <div class="line"></div>
+        </div>
+        <nav class="menu">
+            <ul> 
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Présentation</a></li>
+                <li><a href="level.html"><i class="fas fa-layer-group"></i> Niveaux</a></li>
+                <li><a href="deptInfo.html"><i class="fas fa-info-circle"></i> Département Informatique</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <marquee behavior="scroll" direction="left" width="100%">
+        <h3 class="defilement">Bienvenue dans l'univers de la Licence d'Ingénierie Informatique (L2I) ! 
+            Découvrez une formation innovante et des perspectives d'avenir passionnantes.</h3>
+    </marquee>
+
+    <main>
+        <section id="niveaux">
+            <h2>Presentation des Niveaux et enseignements de chaque niveau</h2>
+            <div id="niveau-list">
+                <!-- Présentation des niveaux -->
+
+                    <h3>Licence 1</h3>
+                        <ul>
+                            <li>Introduction aux fondamentaux de l'informatique : Ce niveau met l'accent sur les bases de l'informatique, 
+                            y compris les concepts de programmation, les algorithmes, les structures de données et les fondamentaux des systèmes informatiques.</li>
+                            <li>Mathématiques appliquées : Les mathématiques occupent une place importante dans ce niveau, car elles fournissent la base nécessaire 
+                            à la compréhension des concepts informatiques avancés. On y étudie généralement l'algèbre lineaire , les fonctions, les ensembles ,l'analyse 
+                            ainsi que les graphes.</li>
+                            <li>Initiation aux langages de programmation : Les étudiants commencent à se familiariser avec au moins un langage de programmation, 
+                            souvent un langage comme Pascal. Ils apprennent à écrire des programmes simples et à comprendre les structures de contrôle de base.</li>
+                            <li>Introduction aux technologies web : Ce niveau peut également inclure une introduction aux technologies web de base, telles que HTML, CSS et JavaScript.</li>
+                        </ul>
+                    <div id="enseignements">
+                        <!-- Présentation des enseignements -->
+                        <h4>Enseignements :</h4>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Nom de l'Enseignement</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>INF1111 - Architecture des ordinateurs</td>
+                                    <td> Exploration de la structure interne des ordinateurs, y compris les processeurs, la mémoire, et les systèmes d'entrée/sortie.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF1112 - Initiation aux systemes exploitations</td>
+                                    <td>Introduction aux principes de base des systèmes d'exploitation, incluant la gestion des processus, de la mémoire et des fichiers</td>
+                                </tr>
+                                <tr>
+                                    <td>INF1121 - Mathematique discrete</td>
+                                    <td>Apprentissage des concepts mathématiques fondamentaux utilisés en informatique, tels que les ensembles, les fonctions, les graphes et la logique.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF1122 - Mathematique pour informatique</td>
+                                    <td>Apprentissage des concepts mathématiques fondamentaux utilisés en informatique, tels que les ensembles, les fonctions, la logique.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF1131 - Programmation 1</td>
+                                    <td>Apprentissage pratique de l'écriture de code informatique dans un langage spécifique, incluant les concepts de base et les bonnes pratiques de programmation.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF1132 - Algorithmique 1</td>
+                                    <td>Ce cours vise à introduire les concepts fondamentaux de l'algorithmique, qui est l'étude des méthodes et des règles utilisées pour résoudre des problèmes informatiques de manière efficace. </td>
+                                </tr>
+                                <tr>
+                                    <td>INF1141 - Techniques d'expression</td>
+                                    <td> Développement des compétences en expression écrite et orale.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF1142 - Anglais 1</td>
+                                    <td>Développement des compétences en anglais dans le contexte de l'informatique.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF1211 - Introduction a la programmation web</td>
+                                    <td>L'introduction à la programmation web couvre HTML, CSS, JavaScript et les principes de base du développement web pour créer des sites interactifs.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF1212 - Programmation 2</td>
+                                    <td>Apprentissage pratique de l'écriture de code informatique dans un langage spécifique, incluant les concepts de base et les bonnes pratiques de programmation.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF1213 - Algorithmique 2</td>
+                                    <td>Approfondissement des techniques d'algorithmique et des structures de données, comme les arbres et les algorithmes de tri.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF1221 - Electricite</td>
+                                    <td> Introduction aux concepts de base de l'électricité pertinents pour l'informatique.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF1222 - Electromagnetisme</td>
+                                    <td> L'électromagnétisme est une branche de la physique qui étudie les interactions entre les charges électriques et les champs magnétiques.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF1131 - Mathematique discrete 2</td>
+                                    <td> Ce cours poursuit l'étude des concepts mathématiques fondamentaux utilisés en informatique, en se concentrant sur des sujets avancés tels que les relations d'équivalence, les fonctions de récurrence et les graphes.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF1132 - Mathematique pour informatique 2</td>
+                                    <td>Mathématique pour informatique 2 : Ce cours approfondit les concepts mathématiques pertinents pour l'informatique, en se concentrant sur des sujets avancés tels que la théorie des ensembles, etc...</td>
+                                </tr>
+                                <tr>
+                                    <td>INF1141 - Projet personnel et professionnel(PPP)</td>
+                                    <td>vise à aider les étudiants à développer un projet professionnel de leurs rêves. Ce type de cours est souvent conçu pour aider les étudiants à explorer leurs intérêts professionnels, à développer des compétences liées à la planification de carrière et à la réalisation de projets, et à élaborer un plan concret pour leur développement professionnel futur.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF1142 - Anglais 2</td>
+                                    <td>Ce cours vise à renforcer les compétences en communication écrite et orale en anglais dans le contexte de l'informatique, en mettant l'accent sur le vocabulaire spécifique et les situations professionnelles courantes.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><br>
+
+                    <div id="add-form1">
+                        <button id="toggle-form">Ajouter un enseignement</button>
+                        <form id="form">
+                            <label for="nom-enseignement">Nom de l'Enseignement:</label>
+                            <input type="text" id="nom-enseignement" name="nom-enseignement">
+                            <div id="nom-error" class="error-message"></div>
+                        
+                            <label for="description-enseignement">Description de l'Enseignement:</label>
+                            <textarea id="description-enseignement" name="description-enseignement"></textarea>
+                            <div id="description-error" class="error-message"></div>
+                        
+                            <button type="submit">Ajouter</button>
+                        </form>
+                        
+                    </div><br><br>
+                    <h3>Licence 2</h3>
+                        <ul>
+                            <li>Approfondissement des connaissances : À ce stade, les étudiants approfondissent leurs connaissances en programmation, en algorithmique et en structures de données.
+                            Ils commencent à aborder des sujets plus complexes tels que la programmation orientée objet, les bases de données et les algorithmes avancés.</li>
+                            <li>Étude des réseaux : C'est en Licence 2 que commence l'étude des réseaux informatiques, abordant les concepts fondamentaux, les protocoles et les architectures.</li>
+                            <li>Projets pratiques : Les étudiants peuvent être amenés à travailler sur des projets pratiques, individuellement ou en groupe, pour appliquer leurs connaissances théoriques
+                            à des applications réelles. Cela peut inclure le développement de logiciels, la conception de bases de données ou la création de sites web dynamiques.</li>
+                        </ul>
+                    <div id="enseignements2">
+                        <!-- Présentation des enseignements -->
+                        <h4>Enseignements :</h4>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Nom de l'Enseignement</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>INF2311 - Probabilités</td>
+                                    <td> Exploration de la structure interne des ordinateurs, y compris les processeurs, la mémoire, et les systèmes d'entrée/sortie.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF2312 - Analyse de donnees</td>
+                                    <td>Apprentissage des concepts mathématiques fondamentaux utilisés en informatique, tels que les ensembles, les fonctions, la logique.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF2321 - Pricipes des systeme d'exploitation</td>
+                                    <td> Introduction aux principes de base des systèmes d'exploitation, y compris la gestion des processus, de la mémoire et des fichiers. </td>
+
+                                </tr>
+                                <tr>
+                                    <td>INF2322 - Introduction aux reseaux</td>
+                                    <td>Initiation aux concepts fondamentaux des réseaux informatiques, y compris les protocoles et les architectures.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF2331 - Conception de BD relationnelles</td>
+                                    <td>Approfondissement des techniques d'algorithmique et des structures de données, comme les arbres, les graphes et les algorithmes de tri.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF2332 - Analyses et conception de systemes</td>
+                                    <td> Apprentissage des méthodes et des outils pour analyser et concevoir des systèmes informatiques efficaces.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF2341 - Algorithmes et structure de donnees</td>
+                                    <td>Étude des algorithmes et des structures de données fondamentaux utilisés en informatique.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>INF2342 - Developpement web back-end</td>
+                                    <td> Apprentissage des technologies et des pratiques pour développer la partie serveur des applications web.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF2351 - Techniques de communication</td>
+                                    <td>Techniques de communication : Ce cours offre aux étudiants des compétences pratiques en communication interpersonnelle, en présentation et en rédaction technique, essentielles pour réussir dans le domaine de l'informatique.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF2352 - Anglais 3</td>
+                                    <td>Développement des compétences en anglais dans le contexte de des reseaux informatique</td>
+                                </tr>
+                                <tr>
+                                    <td>INF2411 - Developpement web front-end</td>
+                                    <td> Apprentissage des langages et des outils utilisés pour créer l'interface utilisateur et l'expérience utilisateur d'un site web.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF2412 - Programmation orientée object</td>
+                                    <td>  Exploration des concepts de programmation orientée objet, incluant l'encapsulation, l'héritage et le polymorphisme, pour une conception logicielle efficace et modulaire..</td>
+                                </tr>
+                                <tr>
+                                    <td>INF2421 - Optimisation combinatoire</td>
+                                    <td> Étude des techniques et des algorithmes pour résoudre les problèmes d'optimisation combinatoire, tels que le problème du voyageur de commerce et le sac à dos.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF2422 - Complexite algorithmique</td>
+                                    <td>    Analyse des performances des algorithmes en termes de temps d'exécution et d'utilisation de la mémoire pour évaluer leur efficacité et leur complexité.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>INF2431 - Administration systèmes</td>
+                                    <td> Apprentissage des principes et des techniques pour gérer et maintenir les systèmes informatiques, y compris l'installation, la configuration et la gestion des services..</td>
+                                </tr>
+                                <tr>
+                                    <td>INF2431 - Administration BD </td>
+                                    <td> Étude des méthodes et des outils pour gérer et maintenir des bases de données, y compris la conception, la mise en œuvre, la sauvegarde et la restauration.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF2441 - Services reseaux </td>
+                                    <td> Exploration des services réseau avancés, tels que la sécurité réseau, le partage de fichiers et l'impression, ainsi que la gestion des services réseau.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF2442 - Reseaux locaux</td>
+                                    <td> Étude des concepts et des technologies utilisés dans les réseaux locaux, y compris la configuration, la sécurisation et la maintenance des réseaux LAN.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF2451 - Gestion de Projets Informatiques</td>
+                                    <td> Compétences en planification, gestion des ressources et communication pour les projets informatiques.</td>
+                                </tr>
+                                <tr>
+                                    <td>INF2452 - Anglais 4</td>
+                                    <td>Développement des compétences en anglais dans le contexte de des bases de donnees</td>
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+                    </div><br>
+        
+                    <div id="add-form2">
+                        <button id="toggle-form2">Ajouter un enseignement</button>
+                        <form id="form2">
+                            <label for="nom-enseignement2">Nom de l'Enseignement:</label>
+                            <input type="text" id="nom-enseignement2" name="nom-enseignement2">
+                            <div id="nom-error2" class="error-message2"></div>
+                        
+                            <label for="description-enseignement2">Description de l'Enseignement:</label>
+                            <textarea id="description-enseignement2" name="description-enseignement2"></textarea>
+                            <div id="description-error2" class="error-message2"></div>
+                        
+                            <button type="submit">Ajouter</button>
+                        </form>
+                        
+                    </div><br><br>
+                    <h3>Licence 3</h3>
+                        <ul>
+                            <li>Consolidation des compétences : À ce stade, les étudiants ont acquis une solide compréhension des principes fondamentaux de l'informatique. 
+                            L'accent est mis sur la consolidation des compétences acquises au cours des deux premières années, ainsi que sur l'approfondissement des connaissances 
+                            dans des domaines spécifiques.</li>
+                            <li>Modules avancés et spécialisés : Le programme de L3 offrent souvent une gamme de modules avancés et spécialisés couvrant des sujets tels que 
+                            l'intelligence artificielle, l'apprentissage automatique, les systèmes distribués, la cybersécurité, etc. Les étudiants peuvent choisir des modules 
+                            en fonction de leurs intérêts et de leurs objectifs de carrière.</li>
+                            <li>Stage de fin d'études : La licence d'ingénierie informatique exigent un projet de fin d'études, où les étudiants ont 
+                            l'occasion de mettre en pratique toutes leurs compétences et connaissances acquises au cours de leurs études. Ce projet peut être réalisé en collaboration 
+                            avec une entreprise ou un laboratoire de recherche, et il offre souvent une expérience précieuse dans le monde réel.</li>
+                        </ul>
+
+            </div>
+            
+            <div id="enseignements3">
+                <!-- Présentation des enseignements -->
+                <h4>Enseignements :</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nom de l'Enseignement</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Reseaux sans fil</td>
+                            <td>Cet enseignement explore les principes fondamentaux des réseaux sans fil, y compris les protocoles de communication, les normes et les technologies sous-jacentes telles que le Wi-Fi, le Bluetooth et les réseaux cellulaires.</td>
+                        </tr>
+                        <tr>
+                            <td>Spectre et Signaux</td>
+                            <td>Ce cours se concentre sur l'étude des signaux électromagnétiques, leur spectre et leur utilisation dans les communications modernes. Il couvre les concepts de modulation, de codage et de traitement du signal.</td>
+                        </tr>
+                        <tr>
+                            <td>INF3512 - Base des telecoms</td>
+                            <td>Cet enseignement fournit une introduction aux concepts de base des télécommunications, y compris les principes de transmission, de commutation et de routage dans les réseaux de communication.</td>
+                        </tr>
+                        <tr>
+                            <td>INF3521 - Developpement d'applications N-tiers</td>
+                            <td>Ce cours se concentre sur le développement d'applications basées sur une architecture N-tiers, en couvrant les concepts de répartition des tâches entre les différentes couches d'une application, la gestion de la logique métier et l'interaction avec les bases de données.</td>
+                        </tr>
+                        <tr>
+                            <td>INF3522 - Architecture des logiciels</td>
+                            <td>Cette matière explore les principes de conception architecturale des logiciels, y compris les modèles de conception, les styles architecturaux et les bonnes pratiques de développement logiciel.</td>
+                        </tr>
+                        <tr>
+                            <td>INF3531 - Developpement mobile</td>
+                            <td>Cet enseignement se concentre sur le développement d'applications pour les plateformes mobiles telles qu'Android et iOS, en couvrant les langages de programmation, les frameworks et les outils pertinents.</td>
+                        </tr>
+                        <tr>
+                            <td>INF3532 - Introduction a l'ioT</td>
+                            <td>Ce cours offre une introduction aux concepts et aux applications de l'Internet des Objets, en examinant les technologies sous-jacentes, les architectures et les défis liés au déploiement des systèmes IoT.</td>
+                        </tr>
+                        <tr>
+                            <td>INF3541 - Formats d'echanges de donnees</td>
+                            <td>Cette matière explore les différents formats utilisés pour échanger des données entre les systèmes informatiques, y compris JSON, XML, CSV, etc., ainsi que les protocoles associés comme REST et SOAP.</td>
+                        </tr>
+                        <tr>
+                            <td>INF3542 - Bases de donnees avancees</td>
+                            <td>Cet enseignement approfondit les concepts avancés en matière de bases de données, tels que la modélisation des données, les transactions, les procédures stockées et les techniques de gestion de la performance.</td>
+                        </tr>
+                        <tr>
+                            <td>INF3551 - Anglais 5</td>
+                            <td>Ce cours vise à renforcer les compétences en anglais des étudiants à un niveau avancé, en mettant l'accent sur la communication orale et écrite dans des contextes professionnels.</td>
+                        </tr>
+                        <tr>
+                            <td>INF3552 - Entreprenariat, leadership, developpement personnel</td>
+                            <td>Cet enseignement aborde les compétences entrepreneuriales, de leadership et de développement personnel nécessaires pour réussir dans le monde professionnel, y compris la gestion du temps, la résolution de problèmes et la prise de décision.</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>INF3611 - Developpement d'application orientée services</td>
+                            <td>Ce cours explore les principes et les techniques de développement d'applications basées sur l'architecture orientée services (SOA), en mettant l'accent sur la création de services Web, la composition de services et l'intégration d'applications distribuées.</td>
+                        </tr>
+                        <tr>
+                            <td>INF3612 - Génie logiciel</td>
+                            <td>Ce cours examine les principes et les pratiques du génie logiciel, en se concentrant sur les processus de développement logiciel, la gestion de projet, la qualité du logiciel et les méthodes de conception et de test.</td>
+                        </tr>
+                        <tr>
+                            <td>INF3621 - Infrastructure cloud</td>
+                            <td>Cet enseignement explore les concepts et les technologies liés à l'infrastructure cloud, y compris la virtualisation, le stockage distribué, la mise en réseau et la gestion des ressources dans un environnement de cloud computing.</td>
+                        </tr>
+                        <tr>
+                            <td>INF3622 - Services VDI à valeur Ajoutée</td>
+                            <td> Ce cours se concentre sur les services à valeur ajoutée dans les environnements de bureau virtuel (VDI), en abordant des sujets tels que la sécurité des données, la mobilité des utilisateurs, la gestion des périphériques et la personnalisation des environnements virtuels.</td>
+                        </tr>
+                        <tr>
+                            <td>INF3631 - Innovqtion technologique</td>
+                            <td> Cette matière explore les processus et les méthodes d'innovation technologique, en mettant l'accent sur l'identification des besoins des utilisateurs, la recherche et le développement de nouvelles technologies, ainsi que la gestion du changement et de l'adoption des innovations.</td>
+                        </tr>
+                        <tr>
+                            <td>INF3632 - Seminaire</td>
+                            <td>Ce cours offre aux étudiants l'occasion de participer à des séminaires sur des sujets spécifiques liés à l'informatique, tels que les tendances technologiques émergentes, les études de cas industrielles ou les présentations de recherche.</td>
+                        </tr>
+                        <tr>
+                            <td>INF3641 - Administration reseaux</td>
+                            <td>Ce cours examine les principes et les techniques pour administrer et gérer les réseaux informatiques, y compris la configuration des équipements réseau, la surveillance des performances, la résolution des problèmes et la sécurité réseau.</td>
+                        </tr>
+                        <tr>
+                            <td>INF3642 - Securite reseaux</td>
+                            <td>Cet enseignement explore les stratégies et les technologies de sécurité des réseaux informatiques, en abordant des sujets tels que la cryptographie, les pare-feu, la détection d'intrusion et les politiques de sécurité.</td>
+                        </tr>
+                        <tr>
+                            <td>INF3651 - Projet operationnel/Stage</td>
+                            <td> Ce cours offre aux étudiants l'opportunité de mettre en pratique leurs connaissances et leurs compétences dans un environnement professionnel, en réalisant un projet opérationnel ou en effectuant un stage dans une entreprise ou une organisation liée à l'informatique.</td>
+                        </tr>
+                        <tr>
+                            <td>INF3661 - Droits des TICS</td>
+                            <td>Cette matière examine les aspects juridiques et éthiques des technologies de l'information et de la communication (TIC), en abordant des sujets tels que la protection des données, la vie privée en ligne, la propriété intellectuelle et la cybercriminalité.</td>
+                        </tr>
+                        <tr>
+                            <td>INF3662 - Anglais 6</td>
+                            <td>Ce cours vise à perfectionner les compétences en anglais des étudiants à un niveau avancé, en mettant l'accent sur la communication professionnelle, la rédaction académique et la préparation à des examens ou certifications linguistiques.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div><br>
+
+            <div id="add-form3">
+                <button id="toggle-form3">Ajouter un enseignement</button>
+                <form class="form3">
+                    <label for="nom-enseignement3">Nom de l'Enseignement:</label>
+                    <input type="text" id="nom-enseignement3" name="nom-enseignement3">
+                    <div id="nom-error3" class="error-message3"></div>
+                
+                    <label for="description-enseignement3">Description de l'Enseignement:</label>
+                    <textarea id="description-enseignement3" name="description-enseignement3"></textarea>
+                    <div id="description-error3" class="error-message3"></div>
+                
+                    <button type="submit">Ajouter</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Liens utiles</h4>
+                    <ul>
+                        <li><a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.ucad.sn/&ved=2ahUKEwiAsNX-_5qFAxVIUqQEHdVOA1EQFnoECAcQAQ&usg=AOvVaw06ZYTt_oeq85DkaHhAxY6F" target="_blank">Universite Cheikh Anta Diop de Dakar</a></li>
+                        <li><a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.ugb.sn/&ved=2ahUKEwiBgsiNgJuFAxX1XqQEHRUiDacQFnoECAcQAQ&usg=AOvVaw2-AWevtuRqwYA4vlJAa7fa" target="_blank">Universite Gaston Berger de Saint-Louis</a></li>
+                        <li><a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://esp.sn/&ved=2ahUKEwiB8OujgJuFAxWfVqQEHaKoAE0QFnoECAcQAQ&usg=AOvVaw3LLT4FxBnC_vQDT5Vk3zNV" target="_blank">Ecole Superieur Polytechnique</a></li>
+                        <li><a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://ept.sn/&ved=2ahUKEwjHmp2ugJuFAxX1XqQEHRUiDacQFnoECAcQAQ&usg=AOvVaw1M3GkGddu28CK_eu-yDXqG" target="_blank">Ecole Polytechnique de Thies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Liens rapides</h4>
+                    <ul>
+                        <li><a href="index.html">Presentation</a></li>
+                        <li><a href="level.html">Niveaux</a></li>
+                        <li><a href="deptInfo.html">Departement Informatique</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>A propos de UASZ</h4>
+                    <ul>
+                        <li><a href="https://uasz.sn/?page_id=891" target="_blank">Historique</a></li>
+                        <li><a href="https://uasz.sn/?page_id=136912#1668183241453-d4afd14b-0f4e" target="_blank">Formations a distance</a></li>
+                        <li><a href="#https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://bibliotheque.uasz.sn/&ved=2ahUKEwi7w428wquFAxXOTaQEHfG9BPYQFnoECBkQAQ&usg=AOvVaw0WQmBZgPqmSim9LuW3VOvi" target="_blank">bibliotheque</a></li>
+                        <li><a href="https://uasz.sn/?page_id=137199" target="_blank">Infos UASZ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Suivez nous</h4>
+                    <div class="social-links">
+                        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.facebook.com/p/Universit%25C3%25A9-Assane-SECK-de-Ziguinchor-100066688724870/&ved=2ahUKEwjK9tXrqqeFAxXSh_0HHQclCgMQFnoECBMQAQ&usg=AOvVaw0zGTMx0n_lbr4KCfRNXJ9G" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://twitter.com/UAS_Ziguinchor&ved=2ahUKEwjxvtucq6eFAxVt8bsIHb3XDvkQFnoECBIQAQ&usg=AOvVaw3fEiNdfJkI8rg8rYnt-FY2" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://sn.linkedin.com/company/universit%25C3%25A9-assane-seck-de-ziguinchor&ved=2ahUKEwjY6qGgraeFAxVEfKQEHWmRAi4QFnoECA8QAQ&usg=AOvVaw1VDDC3Ee6dDjAm0wEGhgy7" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <tr></tr>
+            </div>
+        </div>
+        <hr> 
+
+        <div class="footer-copyright">
+             Copyright © 2024 Licence d'Ingénierie informatique. Tous droits réservés. 
+        </div>
+
+        
+   </footer>
+   <script>
+        var spc = document.querySelector(".spc");
+        spc.onclick = function(){
+            var navBar = document.querySelector(".menu");
+            navBar.classList.toggle("active");
+        }
+    </script>
+    <script src="js/level.js"></script>
+</body>
+</html>
